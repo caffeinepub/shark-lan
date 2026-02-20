@@ -2,10 +2,10 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-update-the-schedule-events-page-to-display-that-events-run-until-midnight-00-00-on-both-day-1-and-day-2-modify-the-timeline-display-to-show-the-final-event-slot-ending-at-midnight-for-each-day",
-      "featureTitle": "Update the Schedule/Events page to display that events run until midnight (00:00) on both Day 1 and Day 2. Modify the timeline display to show the final event slot ending at midnight for each day.",
+      "featureId": "feature-remove-the-phone-number-display-from-the-contact-location-page",
+      "featureTitle": "Remove the phone number display from the Contact/Location page",
       "files": [
-        "frontend/src/pages/Schedule.tsx"
+        "frontend/src/pages/Contact.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -15,7 +15,43 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-11"
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-remove-the-address-display-from-the-contact-location-page",
+      "featureTitle": "Remove the address display from the Contact/Location page",
+      "files": [
+        "frontend/src/pages/Contact.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-remove-the-map-display-from-the-contact-location-page",
+      "featureTitle": "Remove the map display from the Contact/Location page",
+      "files": [
+        "frontend/src/pages/Contact.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
       ],
       "confidence": "high"
     }

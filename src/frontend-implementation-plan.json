@@ -1,22 +1,50 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Update event schedule to show midnight end time for both days",
+  "title": "Remove phone number, address, and map from Contact page",
   "requirements": [
     {
-      "id": "REQ-11",
-      "summary": "Update the Schedule/Events page to display that events run until midnight (00:00) on both Day 1 and Day 2",
+      "id": "REQ-12",
+      "summary": "Remove phone number display from Contact page",
       "acceptanceCriteria": [
-        "Day 1 schedule shows events running until midnight (00:00)",
-        "Day 2 schedule shows events running until midnight (00:00)",
-        "The midnight end time is clearly visible in the timeline display",
-        "The schedule maintains its current tournament and game lineup structure"
+        "Phone number is no longer visible on the Contact page",
+        "No phone-related UI elements remain in the contact information section"
       ],
       "file_operations": [
         {
-          "path": "frontend/src/pages/Schedule.tsx",
+          "path": "frontend/src/pages/Contact.tsx",
           "operation": "modify",
-          "description": "Modify the schedule timeline display to show events running until midnight (00:00) for both Day 1 and Day 2. Update the final event slot end times to display '00:00' instead of earlier times. Ensure the midnight end time is clearly visible while preserving the existing tournament lineup, game information, day selector dropdown, and cartoon/neon visual styling."
+          "description": "Remove phone number display and any phone-related UI elements from the contact information section while preserving email contact information and maintaining the existing cartoon/neon styling"
+        }
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "summary": "Remove address display from Contact page",
+      "acceptanceCriteria": [
+        "Venue address is no longer displayed on the Contact page",
+        "Location-related text content is removed from the contact information"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "modify",
+          "description": "Remove venue address display and all location-related text content from the contact information section while maintaining the existing cartoon/neon styling for remaining elements"
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Remove map display from Contact page",
+      "acceptanceCriteria": [
+        "Map placeholder or embedded map is no longer visible on the Contact page",
+        "No map-related UI elements remain in the layout"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "modify",
+          "description": "Remove map placeholder or embedded map component and any map-related UI elements from the page layout while preserving the overall Contact page structure and styling"
         }
       ]
     }

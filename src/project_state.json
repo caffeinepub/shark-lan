@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
+  "projectStateVersion": 7,
   "summary": "Shark LAN gaming event website: Multi-tab landing page with animated/cartoon style, vibrant teen-friendly design featuring Home, Tickets, Schedule/Events, Support, and Contact/Location tabs",
   "architectural_notes": [
     "Multi-tab navigation structure with Home, Tickets, Schedule/Events, Support, Contact/Location",
@@ -100,6 +100,30 @@
         "REQ-11"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-remove-the-phone-number-display-from-the-contact-location-page",
+      "title": "Remove the phone number display from the Contact/Location page",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-address-display-from-the-contact-location-page",
+      "title": "Remove the address display from the Contact/Location page",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-map-display-from-the-contact-location-page",
+      "title": "Remove the map display from the Contact/Location page",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -154,6 +178,12 @@
     {
       "id": "AR-9",
       "summary": "Update schedule to show events run until midnight on both Day 1 and Day 2",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Remove phone number, address, and map from Contact/Location tab",
       "reqIds": [],
       "status": "pending"
     }

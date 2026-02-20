@@ -1,38 +1,68 @@
 {
   "kind": "build_request",
-  "title": "Update event schedule to show midnight end time for both days",
-  "projectName": "Shark LAN",
+  "title": "Remove phone number, address, and map from Contact page",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-11",
-      "text": "Update the Schedule/Events page to display that events run until midnight (00:00) on both Day 1 and Day 2. Modify the timeline display to show the final event slot ending at midnight for each day.",
+      "id": "REQ-12",
+      "text": "Remove the phone number display from the Contact/Location page",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-user-final"
+          "msg-user-request"
         ],
         "quotes": [
-          "Until midnight on both nights"
+          "On contact remove the phone number address and map"
         ]
       },
       "acceptanceCriteria": [
-        "Day 1 schedule shows events running until midnight (00:00)",
-        "Day 2 schedule shows events running until midnight (00:00)",
-        "The midnight end time is clearly visible in the timeline display",
-        "The schedule maintains its current tournament and game lineup structure"
+        "Phone number is no longer visible on the Contact page",
+        "No phone-related UI elements remain in the contact information section"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Remove the address display from the Contact/Location page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-request"
+        ],
+        "quotes": [
+          "On contact remove the phone number address and map"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Venue address is no longer displayed on the Contact page",
+        "Location-related text content is removed from the contact information"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Remove the map display from the Contact/Location page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-request"
+        ],
+        "quotes": [
+          "On contact remove the phone number address and map"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Map placeholder or embedded map is no longer visible on the Contact page",
+        "No map-related UI elements remain in the layout"
       ]
     }
   ],
   "constraints": [
-    "Do not modify the day selector dropdown functionality",
-    "Preserve the existing tournament and game lineup information",
-    "Maintain the current cartoon/neon visual styling"
+    "Maintain the existing cartoon/neon styling for remaining Contact page elements",
+    "Preserve the email contact information if present"
   ],
   "nonGoals": [
-    "Adding new tournaments or games to the schedule",
-    "Changing the schedule layout or structure",
-    "Modifying other pages beyond the Schedule/Events page"
+    "Adding new contact methods or information",
+    "Redesigning the overall Contact page layout beyond removing specified elements",
+    "Modifying other pages or navigation"
   ],
   "imageRequirements": {
     "required": [],

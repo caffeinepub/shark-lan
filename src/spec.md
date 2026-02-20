@@ -1,11 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Update the event schedule to display midnight (00:00) as the end time for both Day 1 and Day 2.
+**Goal:** Simplify the Contact page by removing phone number, address, and map displays.
 
 **Planned changes:**
-- Modify the Schedule/Events page timeline to show events running until midnight (00:00) on Day 1
-- Modify the Schedule/Events page timeline to show events running until midnight (00:00) on Day 2
-- Ensure the midnight end time is clearly visible in the timeline display
+- Remove phone number display from Contact page
+- Remove address display from Contact page
+- Remove map display from Contact page
 
-**User-visible outcome:** Users viewing the Schedule/Events page will see that gaming events run until midnight on both nights of the LAN party.
+**User-visible outcome:** The Contact page will show a streamlined interface without phone number, address, or map information, while preserving email contact details.
