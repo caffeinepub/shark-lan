@@ -1,2 +1,3 @@
-# shark-lan
-Exported from Caffeine project: Shark LAN
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

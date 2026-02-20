@@ -1,0 +1,41 @@
+{
+  "kind": "build_request",
+  "title": "Update event schedule to show midnight end time for both days",
+  "projectName": "Shark LAN",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Update the Schedule/Events page to display that events run until midnight (00:00) on both Day 1 and Day 2. Modify the timeline display to show the final event slot ending at midnight for each day.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-final"
+        ],
+        "quotes": [
+          "Until midnight on both nights"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Day 1 schedule shows events running until midnight (00:00)",
+        "Day 2 schedule shows events running until midnight (00:00)",
+        "The midnight end time is clearly visible in the timeline display",
+        "The schedule maintains its current tournament and game lineup structure"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the day selector dropdown functionality",
+    "Preserve the existing tournament and game lineup information",
+    "Maintain the current cartoon/neon visual styling"
+  ],
+  "nonGoals": [
+    "Adding new tournaments or games to the schedule",
+    "Changing the schedule layout or structure",
+    "Modifying other pages beyond the Schedule/Events page"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

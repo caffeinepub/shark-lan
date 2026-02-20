@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router configuration for five routes (Home, Tickets, Schedule, Support, Contact) using a shared Layout component.",
+  "frontend/src/components/Layout.tsx": "Layout wrapper component that provides consistent structure with Navigation header, main content area via Outlet, and Footer across all pages.",
+  "frontend/src/components/Navigation.tsx": "Sticky navigation header with Shark LAN branding and five cartoon-styled tabs featuring neon glow effects, active state highlighting, and hover animations.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright, attribution to caffeine.ai with UTM tracking, and animated heart icon.",
+  "frontend/src/pages/Home.tsx": "Home page featuring animated Shark LAN banner, mascot, event highlights grid with high-energy cards, and cheering crowd image with \"Date & Time TBD\" placeholder.",
+  "frontend/src/pages/Tickets.tsx": "Tickets page displaying three tiered ticket options (£5/£10/£15) with unique numbering, BYO PC/console information, 50 player capacity notice, and gaming setup images.",
+  "frontend/src/pages/Schedule.tsx": "Schedule page with dropdown selector for Day 1 and Day 2 event timelines showing events running until midnight (00:00), tournament details, game lineup grid, and network cables illustration with highlighted midnight end time.",
+  "frontend/src/pages/Support.tsx": "Support page with dropdown menu providing access to FAQ accordion, event rules list, contact form, and troubleshooting guide sections.",
+  "frontend/src/pages/Contact.tsx": "Contact page displaying venue address, contact information (email/phone), placeholder map visualization, and transportation directions with multiple transit options.",
+  "frontend/src/index.css": "Global styles with OKLCH color system customized for neon blues/cyan/RGB gaming aesthetic, cartoon text effects, neon glow shadows, and custom animations (float, wiggle, pulse-glow, bounce-slow).",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended color palette for gaming theme and custom font family setup.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as backend has no methods (static landing page only)."
+}

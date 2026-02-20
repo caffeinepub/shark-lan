@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Shark LAN gaming event website: Multi-tab landing page with animated/cartoon style, vibrant teen-friendly design featuring Home, Tickets, Schedule/Events, Support, and Contact/Location tabs",
+  "architectural_notes": [
+    "Multi-tab navigation structure with Home, Tickets, Schedule/Events, Support, Contact/Location",
+    "Dropdown menus required for Schedule/Events and Support tabs",
+    "Animated/cartoon visual style with bold outlines and neon color palette (blues, cyan, RGB)",
+    "Teen/all-ages friendly branding consistency throughout",
+    "Placeholders needed for TBD date/time and ticket purchase links",
+    "Event schedule runs until midnight on both nights"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-multi-tab-navigation-system-with-five-tabs-home-tickets-schedule-events-support-and-contact-location-navigation-should-be-persistent-across-all-pages-with-active-state-indication",
+      "title": "Create a multi-tab navigation system with five tabs: Home, Tickets, Schedule/Events, Support, and Contact/Location. Navigation should be persistent across all pages with active state indication.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-home-tab-page-displaying-event-title-shark-lan-an-animated-banner-section-and-key-highlights-of-the-shark-lan-gaming-event",
+      "title": "Implement Home tab page displaying event title 'Shark LAN', an animated banner section, and key highlights of the Shark LAN gaming event.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-tickets-tab-page-showing-three-tiered-ticket-options-5-10-15-with-unique-ticket-numbers-clear-indication-that-players-must-bring-their-own-pc-console-and-display-of-50-player-capacity-limit-include-placeholder-for-ticket-purchase-links",
+      "title": "Implement Tickets tab page showing three tiered ticket options (£5, £10, £15) with unique ticket numbers, clear indication that players must bring their own PC/console, and display of 50 player capacity limit. Include placeholder for ticket purchase links.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-schedule-events-tab-page-with-a-dropdown-menu-that-reveals-day-1-and-day-2-schedules-separately-including-tournament-information-and-game-lineup-for-each-day",
+      "title": "Implement Schedule/Events tab page with a dropdown menu that reveals Day 1 and Day 2 schedules separately, including tournament information and game lineup for each day.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-support-tab-page-with-a-dropdown-menu-providing-access-to-faq-section-event-rules-contact-form-and-troubleshooting-tech-support-information",
+      "title": "Implement Support tab page with a dropdown menu providing access to FAQ section, event rules, contact form, and troubleshooting/tech support information.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-contact-location-tab-page-displaying-event-venue-information-an-embedded-or-linked-map-showing-the-location-and-directions-to-the-venue",
+      "title": "Implement Contact/Location tab page displaying event venue information, an embedded or linked map showing the location, and directions to the venue.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-animated-cartoon-visual-style-throughout-the-entire-site-using-bold-outlines-glowing-neon-blues-cyan-and-rgb-color-accents-design-should-be-vibrant-colorful-non-realistic-and-appeal-to-teens-and-all-ages",
+      "title": "Apply a cohesive animated/cartoon visual style throughout the entire site using bold outlines, glowing neon blues, cyan, and RGB color accents. Design should be vibrant, colorful, non-realistic, and appeal to teens and all ages.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-style-all-interactive-elements-buttons-dropdowns-tabs-with-a-playful-clickable-appearance-using-cartoon-comic-aesthetics-that-make-them-obviously-interactive-and-fun-to-use",
+      "title": "Style all interactive elements (buttons, dropdowns, tabs) with a playful, clickable appearance using cartoon/comic aesthetics that make them obviously interactive and fun to use.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-include-placeholder-text-date-time-tbd-in-appropriate-sections-where-event-timing-information-will-be-added-later",
+      "title": "Include placeholder text 'Date & Time TBD' in appropriate sections where event timing information will be added later.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-all-generated-gaming-themed-illustrations-as-static-assets-in-the-frontend-application",
+      "title": "Render all generated gaming-themed illustrations as static assets in the frontend application.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-schedule-events-page-to-display-that-events-run-until-midnight-00-00-on-both-day-1-and-day-2-modify-the-timeline-display-to-show-the-final-event-slot-ending-at-midnight-for-each-day",
+      "title": "Update the Schedule/Events page to display that events run until midnight (00:00) on both Day 1 and Day 2. Modify the timeline display to show the final event slot ending at midnight for each day.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Home tab with event title, animated banner, and Shark LAN highlights",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Tickets tab showing tiered tickets (£5/£10/£15), numbered, BYO PC/console info, 50 player capacity",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Schedule/Events tab with dropdown menu for Day 1 and Day 2 activities, tournaments, game lineup",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Support tab with dropdown menu for FAQ, rules, contact form, troubleshooting",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Contact/Location tab with venue details, map, and directions",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Animated/cartoon style design with bold outlines, neon blues, cyan, RGB accents",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Gaming-themed illustrations: sharks, PCs, controllers, network cables, cheering crowd",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Stylized, clickable buttons, dropdowns, and tabs with fun, high-energy design",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Update schedule to show events run until midnight on both Day 1 and Day 2",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Shark LAN",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

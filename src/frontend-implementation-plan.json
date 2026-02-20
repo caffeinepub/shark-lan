@@ -1,0 +1,24 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update event schedule to show midnight end time for both days",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Update the Schedule/Events page to display that events run until midnight (00:00) on both Day 1 and Day 2",
+      "acceptanceCriteria": [
+        "Day 1 schedule shows events running until midnight (00:00)",
+        "Day 2 schedule shows events running until midnight (00:00)",
+        "The midnight end time is clearly visible in the timeline display",
+        "The schedule maintains its current tournament and game lineup structure"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Schedule.tsx",
+          "operation": "modify",
+          "description": "Modify the schedule timeline display to show events running until midnight (00:00) for both Day 1 and Day 2. Update the final event slot end times to display '00:00' instead of earlier times. Ensure the midnight end time is clearly visible while preserving the existing tournament lineup, game information, day selector dropdown, and cartoon/neon visual styling."
+        }
+      ]
+    }
+  ]
+}

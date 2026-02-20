@@ -1,0 +1,14 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-20T00:28:13.347Z",
+  "summary": "The diff successfully implements REQ-11 by adding midnight (00:00) end time entries to both Day 1 and Day 2 schedules in Schedule.tsx. Both schedules now include a final '00:00' event labeled 'Event Ends' with a Clock icon, making the midnight end time clearly visible. The changes preserve the tournament/game lineup structure and maintain the dropdown functionality for day selection.",
+  "missing_requirements": [],
+  "hallucinated_features": [],
+  "confidence": 0.95,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/src/pages/Schedule.tsx",
+    "project_state.json"
+  ]
+}

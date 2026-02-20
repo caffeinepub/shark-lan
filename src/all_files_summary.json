@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no methods or state, serving as a placeholder backend.",
+  "feature_evidence.json": "Feature evidence report documenting that Schedule.tsx displays events running until midnight (00:00) for Day 1 and Day 2, with high confidence.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend files describing a gaming LAN party site with navigation, schedule, tickets, support, and contact pages using cartoon/neon styling.",
+  "frontend/index.css": "Tailwind base styles with CSS custom properties defining OKLCH color system for light and dark themes with neutral grayscale palette.",
+  "frontend/index.html": "HTML entry point with root div and module script loading main.tsx for the Shark LAN application.",
+  "frontend/src/App.tsx": "TanStack Router configuration defining five routes (Home, Tickets, Schedule, Support, Contact) with shared Layout component.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright, animated heart icon, and caffeine.ai attribution link with UTM tracking.",
+  "frontend/src/components/Layout.tsx": "Layout wrapper providing Navigation header, main content outlet, and Footer with gradient background.",
+  "frontend/src/components/Navigation.tsx": "Sticky header with Shark LAN branding, gamepad icon, and five navigation tabs with active state highlighting and neon glow effects.",
+  "frontend/src/hooks/useActor.ts": "React hook managing authenticated/anonymous actor creation with Internet Identity integration and automatic query invalidation on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication with login, logout, and identity state management.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as the backend has no methods to call for this static landing page.",
+  "frontend/src/index.css": "Global styles with OKLCH color system for neon gaming theme, custom cartoon text effects, neon glow shadows, and keyframe animations (float, wiggle, pulse-glow, bounce-slow).",
+  "frontend/src/main.tsx": "React application entry point wrapping App with QueryClientProvider and InternetIdentityProvider.",
+  "frontend/src/pages/Contact.tsx": "Contact page displaying venue location, address, email, phone contact information, and a stylized map placeholder with cartoon-themed styling and neon effects.",
+  "frontend/src/pages/Home.tsx": "Home page featuring hero banner with shark mascot, event highlights (high energy, 50 players, prizes), and a cheering crowd image, all with animated cartoon styling.",
+  "frontend/src/pages/Schedule.tsx": "Schedule page with day selector (Day 1/Day 2) showing tournament timelines for various games (Fortnite, Valorant, League of Legends, etc.) and a list of featured games.",
+  "frontend/src/pages/Support.tsx": "Support center page with section selector for FAQ, rules, troubleshooting, and contact form, providing help resources for event attendees.",
+  "frontend/src/pages/Tickets.tsx": "Tickets page displaying three tier options (Bronze, Silver, Gold Shark) with pricing, features, and BYO PC/console information for the 50-player capacity event.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration with custom color scheme using OKLCH color space, extended animations (accordion), custom shadows, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project state file tracking a Shark LAN gaming event website with multi-tab navigation (Home, Tickets, Schedule/Events, Support, Contact/Location) and animated/cartoon styling. Contains architectural notes, existing features with requirement IDs, and version tracking for a vibrant teen-friendly design with neon color palette."
+}

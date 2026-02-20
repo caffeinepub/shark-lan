@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-schedule-events-page-to-display-that-events-run-until-midnight-00-00-on-both-day-1-and-day-2-modify-the-timeline-display-to-show-the-final-event-slot-ending-at-midnight-for-each-day",
+      "featureTitle": "Update the Schedule/Events page to display that events run until midnight (00:00) on both Day 1 and Day 2. Modify the timeline display to show the final event slot ending at midnight for each day.",
+      "files": [
+        "frontend/src/pages/Schedule.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
